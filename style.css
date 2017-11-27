@@ -1,0 +1,129 @@
+/*Resetear el navegador*/
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+.container{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+  background-color: #F78E69;
+}
+/*Limpiando antes y depués*/
+
+.row:before, .row:after{
+content: "";
+display: table;
+clear: both;
+}
+.row-1{
+  height: 33em;
+}
+.row-2{
+  height: 22em;
+  background-color: #ABE188;
+}
+.row-3{
+  height: 27.5em;
+}
+h1,p{
+text-align: right;
+color: white;
+}
+p{
+  padding-bottom: 1em;
+}
+/*(número de columnas/12 * 100 ) fórmula ancho de columnas*/
+[class*="col-"]{
+	float: left;
+	min-height: 7px;
+	padding: 12px 0px; /*guters*/
+}
+.col-1 {
+  width: 8.333333%;
+}
+
+.col-2 {
+  width: 16.666667%;
+  text-align: center;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333333%;
+}
+
+.col-5 {
+  width: 41.666667%;
+  float: right;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333333%;
+}
+
+.col-8 {
+  width: 66.666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333333%;
+}
+
+.col-11 {
+  width: 91.666667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.panda-1{
+  filter: grayscale(100%);
+  width: 100%;
+  height: 25em;
+  object-fit: cover;
+
+}
+.innertext{
+  text-align: center;
+  background-color: #F78E69;
+  font-size: 12px;
+  padding: 2em;
+}
+.innertitle{
+  text-align: center;
+  background-color: #F78E69;
+  padding: 0.5em;
+  color: white;
+}
+.panda-2{
+  filter: grayscale(100%);
+  width: 100%;
+  height: 25em;
+  object-fit: cover;
+}
+.title-2{
+  text-align: center;
+  padding: 0.5em;
+  color: white;
+}
+.img-border{
+  border: solid white 0.5em;
+  width: 80%;
+
+
+
+}
